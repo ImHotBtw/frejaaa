@@ -4,3 +4,20 @@
     "start_url": "/välja.html",
     "short_name": "Freja"
 }
+{
+  "name": "FrejaID",
+  "short_name": "FrejaID",
+  "theme_color": "#00FF00",
+  "background_color": "#00FF00",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
