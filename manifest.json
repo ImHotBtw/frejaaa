@@ -14,7 +14,7 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "images/apple-touch-icon.png",
+      "src": "apple-touch-icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
