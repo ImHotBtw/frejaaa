@@ -1,3 +1,4 @@
+window.scrollTo(0, 1);
 const buttons = document.querySelectorAll(".btn1");
 buttons.forEach(function (_0x9f6c3c) {
   _0x9f6c3c.addEventListener("click", function () {
