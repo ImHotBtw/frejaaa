@@ -1,8 +1,14 @@
+<meta name="apple-mobile-web-app-capable" content="yes">
 <!doctype html><html lang=en>>
 <head>  <meta charset="utf-8">
-  <meta name='apple-mobile-web-app-capable' content='YES'/>
-  <meta name='mobile-web-app-capable' content='yes' />
-  <meta name='apple-mobile-web-app-status-bar-style' content='default' />
+  	<script>
+		    if (document.webkitFullscreenElement) {
+      document.webkitCancelFullScreen();
+    } else {
+      const el = document.documentElement;
+      el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+    }
+	</script>
   <title>Freja</title> <!-- replace with your web app title-->
   <link rel="manifest" href="manifest.json"><!-- copy your app logo to <web root>/apple-touch-icon.png, this is required by IOS Safari -->
     <script type="text/javascript" src="./dist/add-to-homescreen.min.js"></script>
