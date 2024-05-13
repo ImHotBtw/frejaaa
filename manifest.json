@@ -19,3 +19,24 @@
       }
   ]
 }
+{ 
+
+  "name": "FrejaID", 
+
+  "short_name": "FrejaID", 
+
+  "start_url": "https://FrejaID.vercel.app", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "images/apple-touch-icon.png", 
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }] 
+
+}
