@@ -14,29 +14,6 @@
 	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<meta name="theme-color" content="#000000">
   <title>Freja</title> <!-- replace with your web app title-->
-<script>
-const loginPopup = document.getElementById('loginPopup');
-const loginButton = document.getElementById('loginButton');
-const closeButton = document.getElementById('closeButton');
-var pass = document.getElementById('Username');
-if(pass == "Casper") {
-	loginButton.addEventListener('click', function() {
-	loginPopup.style.display = 'block';
-	else {
-		alert("nono");
-});
-
-closeButton.addEventListener('click', function() {
-  loginPopup.style.display = 'none';
-});
-</script>
-<div id="loginPopup">
-  <form>
-    <input type="text" id="Username" placeholder="Username">
-    <input type="password" placeholder="Password">
-    <input type="submit" value="Log In">
-  </form>
-</div>
   <link rel="manifest" href="manifest.json"><!-- copy your app logo to <web root>/apple-touch-icon.png, this is required by IOS Safari -->
     <script type="text/javascript" src="./dist/add-to-homescreen.min.js"></script>
   
